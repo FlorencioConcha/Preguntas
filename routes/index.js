@@ -5,7 +5,7 @@ var quizController = require('../controllers/quiz_controller');
 router.get('/', function(req, res) {
   res.render('index', { title: 'Quiz' });
 });
-router.get('/', function(req, res) {
+app.get('/', function(req, res) {
   res.render('/',{author: 'Florencio Concha'});
 });
 router.get('/quizes/question',quizController.question);

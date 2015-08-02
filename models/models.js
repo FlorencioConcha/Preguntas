@@ -11,8 +11,7 @@ exports.Quiz = Quiz;
         Quiz.create({
           pregunta: 'Capital de Italia',
           respuesta: 'Roma'
-        })
-      .then(function (){console.log('Base de datos inicalizada')});
+        }).then(function (){console.log('Base de datos inicalizada')});
     };
   });
 });
